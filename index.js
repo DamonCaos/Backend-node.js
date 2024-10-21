@@ -3,9 +3,9 @@ const http = require('http');
 
 // dfefinir un servidor
 const server = http.createServer(function(request, response){
-    response.writeHead(200, {'content-type': 'text/plain'});
+    response.writeHead(200, {'content-type': 'text/html'});
 
-    response.end('wake up, Neo...');
+    response.end('Wake up, <b>Neo</b>...');
 });
 
 // arrancar el servidor
