@@ -4,12 +4,13 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "mode --match index.js"
+    "dev": "node --watch index.js"
   },
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "chance": "^1.1.12",
     "nodemon": "^3.1.7"
   }
 }
